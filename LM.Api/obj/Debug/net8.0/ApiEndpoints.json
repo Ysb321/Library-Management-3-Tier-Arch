@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "LM.Api.Controllers.BooksRepoController",
+    "Method": "BooksCreate",
+    "RelativePath": "api/BooksRepo/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "books",
+        "Type": "LM.BussinessLayer.Model.Books",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM.Api.Controllers.BooksRepoController",
+    "Method": "BooksDelete",
+    "RelativePath": "api/BooksRepo/deletebook/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM.Api.Controllers.BooksRepoController",
+    "Method": "BooksList",
+    "RelativePath": "api/BooksRepo/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LM.Api.Controllers.BooksRepoController",
+    "Method": "BooksUpdate",
+    "RelativePath": "api/BooksRepo/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Update",
+        "Type": "LM.BussinessLayer.Model.Books",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

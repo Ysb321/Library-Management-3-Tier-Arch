@@ -1,0 +1,27 @@
+﻿@model LM.BussinessLayer.Model.Books
+
+<div class="card shadow-sm rounded-lg">
+    <div class="card-body">
+        <form method="post" asp-action="Create">
+            <div class="mb-3">
+                <label for="BookName" class="form-label">Book Name</label>
+                <input class="form-control" placeholder="Enter Book Name" asp-for="BookName" type="text" id="BookName">
+                <span class="text-danger mt-2" asp-validation-for="BookName"></span>
+            </div>
+            <div class="mb-3">
+                <label for="BookAuthor" class="form-label">Author Name</label>
+                <input class="form-control" placeholder="Enter Book Author Name" asp-for="BookAuthor" type="text" id="BookAuthor">
+                <span class="text-danger mt-2" asp-validation-for="BookAuthor"></span>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input border-2" asp-for="IsAvailable" type="checkbox" id="IsAvailable">
+                <label class="form-check-label" for="IsAvailable">Is it Available ?</label>
+            </div>
+            <div class="mb-3 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Create</button>
+                <button type="reset" class="btn btn-secondary btn-lg">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
+

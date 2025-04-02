@@ -1,0 +1,38 @@
+﻿@model LM.BussinessLayer.Model.Books
+
+@{
+    ViewData["Title"] = "✏ Edit";
+}
+
+<body class="bg-warning">
+    <div class="d-flex justify-content-center">
+        <div class="card col-12 col-md-5 p-0">
+            <div class="card-header bg-primary text-white">
+                <h3>✏ Update book record</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-action="Edit">
+                    <input asp-for="BookId" hidden>
+                    <div class="mb-3">
+                        <label for="BookName" class="form-label">Book Name</label>
+                        <input class="form-control" placeholder="Enter Book Name" asp-for="BookName" type="text" id="BookName">
+                        <span class="text-danger" asp-validation-for="BookName"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="BookAuthor" class="form-label">Author Name</label>
+                        <input class="form-control" placeholder="Enter Book Author Name" asp-for="BookAuthor" type="text" id="BookAuthor">
+                        <span class="text-danger" asp-validation-for="BookAuthor"></span>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input class="form-check-input border-2" asp-for="IsAvailable" type="checkbox" id="IsAvailable">
+                        <label class="form-check-label" for="IsAvailable">Is it Available ?</label>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Update</button>
+                        <button asp-action="BooksInfo" class="btn border-danger btn-lg">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+</body>

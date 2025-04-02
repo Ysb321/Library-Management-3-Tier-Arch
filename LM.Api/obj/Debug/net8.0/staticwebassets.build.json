@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hSdA9uvJjWeIv7FA+S5aGpMdBbb9hzCygPifbXXp9uI=",
+  "Source": "LM.Api",
+  "BasePath": "_content/LM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

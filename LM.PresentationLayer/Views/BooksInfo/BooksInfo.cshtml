@@ -1,0 +1,108 @@
+﻿@model List<LM.BussinessLayer.Model.Books>
+
+@{
+    ViewData["Title"] = "BookInfo";
+}
+
+<body class="bg-warning">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-header bg-secondary text-white">
+                    <h5>📖 Add a New Book</h5>
+                </div>
+                <div class="card-body">
+                    <partial name="Create" model="new LM.BussinessLayer.Model.Books()" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show d-flex justify-content-between" role="alert">
+                    @TempData["SuccessMessage"]
+                    <button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close">❌</button>
+                </div>
+            }
+            @if (TempData["DeletedMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show d-flex justify-content-between" role="alert">
+                    @TempData["DeletedMessage"]
+                    <button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close">❌</button>
+                </div>
+            }
+            @if (TempData["CreatedMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show d-flex justify-content-between pe-1" role="alert">
+                    @TempData["CreatedMessage"]
+                    <button type="button" class="btn btn-close" data-bs-dismiss="alert" aria-label="Close">❌</button>
+                </div>
+            }
+
+            <div class="mb-3 text-center">
+                <a class="btn btn-md bg-secondary text-white m-2" asp-action="BooksInfo" asp-route-id="0">All Books</a>
+                <a class="btn btn-md bg-success text-white m-2" asp-action="BooksInfo" asp-route-id="1">Available</a>
+                <a class="btn btn-md bg-danger text-white m-2" asp-action="BooksInfo" asp-route-id="2">Not Available</a>
+            </div>
+            <table class="table table-bordered table-striped shadow-sm">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>📚 Name</th>
+                        <th>✍ Author</th>
+                        <th>🔄 Status</th>
+                        <th>⚙ Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var book in Model)
+                    {
+                        <tr>
+                            <td>@book.BookName</td>
+                            <td><i>@book.BookAuthor</i></td>
+                            <td>
+                                <span class="badge text-white @(book.IsAvailable ? "bg-success" : "bg-danger")">
+                                    @(book.IsAvailable ? "Available" : "Not Available")
+                                </span>
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" asp-action="Details" asp-route-id="@book.BookId">👀 Details</a></li>
+                                        <li><a class="dropdown-item" asp-action="Edit" asp-route-id="@book.BookId">✏ Edit</a></li>
+                                        <li>
+                                            <a class="dropdown-item btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal-@book.BookId">
+                                                🗑 Delete
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Modal for Delete Confirmation -->
+                                <div class="modal fade" id="deleteModal-@book.BookId" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-danger text-white">
+                                                <h5 class="modal-title" id="deleteModalLabel">⚠ Confirm Deletion</h5>
+                                                <button type="button" class="rounded btn-close text-white" data-bs-dismiss="modal" aria-label="Close">❌</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Are you sure you want to delete <strong>@book.BookName</strong>?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@book.BookId">🗑 Delete</a>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</body>

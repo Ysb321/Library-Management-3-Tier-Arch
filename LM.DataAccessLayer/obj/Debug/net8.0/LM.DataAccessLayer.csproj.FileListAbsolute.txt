@@ -1,0 +1,16 @@
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\bin\Debug\net8.0\LM.DataAccessLayer.deps.json
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\bin\Debug\net8.0\LM.DataAccessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\bin\Debug\net8.0\LM.DataAccessLayer.pdb
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\bin\Debug\net8.0\LM.BussinessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\bin\Debug\net8.0\LM.BussinessLayer.pdb
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.csproj.AssemblyReference.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.AssemblyInfoInputs.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.AssemblyInfo.cs
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.sourcelink.json
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataA.6C9C04BA.Up2Date
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\refint\LM.DataAccessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\LM.DataAccessLayer.pdb
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.DataAccessLayer\obj\Debug\net8.0\ref\LM.DataAccessLayer.dll

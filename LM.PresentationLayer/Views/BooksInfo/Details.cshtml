@@ -1,0 +1,30 @@
+﻿@model LM.BussinessLayer.Model.Books
+
+@{
+    ViewData["Title"] = "📄 Details";
+}
+
+<body class="bg-warning">
+
+    <div class="d-flex justify-content-center">
+        <div class="card col-12 col-md-7 p-0">
+        <div class="card-header bg-primary text-white">
+            <h3>📄 Details About Book</h3>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush mb-3">
+                <li class="list-group-item"><strong>Book Id:- </strong>@Model.BookId</li>
+                <li class="list-group-item"><strong>Book Name:- </strong>@Model.BookName</li>
+                <li class="list-group-item"><strong>Book Author:- </strong>@Model.BookAuthor</li>
+                <li class="list-group-item"><strong>Avaibility:- </strong>@Model.IsAvailable</li>
+                <li class="list-group-item"><strong>Created On:- </strong>@Model.CreatedOn</li>
+                <li class="list-group-item"><strong>Created By:- </strong>@Model.CreatedBy</li>
+                <li class="list-group-item"><strong>Updated On:- </strong>@Model.UpdatedOn</li>
+                <li class="list-group-item"><strong>Updated By:- </strong>@Model.UpdatedBy</li>
+            </ul>
+            <a class="btn btn-lg bg-secondary text-white text-decoration-none" asp-action="BooksInfo">Back</a>
+        </div>
+    </div>.
+    </div>
+
+</body>

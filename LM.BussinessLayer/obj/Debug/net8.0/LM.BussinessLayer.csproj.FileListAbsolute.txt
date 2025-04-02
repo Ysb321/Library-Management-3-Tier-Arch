@@ -1,0 +1,13 @@
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\bin\Debug\net8.0\LM.BussinessLayer.deps.json
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\bin\Debug\net8.0\LM.BussinessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\bin\Debug\net8.0\LM.BussinessLayer.pdb
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.csproj.AssemblyReference.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.AssemblyInfoInputs.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.AssemblyInfo.cs
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.csproj.CoreCompileInputs.cache
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.sourcelink.json
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\refint\LM.BussinessLayer.dll
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\LM.BussinessLayer.pdb
+D:\c and cpp\Class-Programs-Yashraj\DotNet\MVC\LM\LM.BussinessLayer\obj\Debug\net8.0\ref\LM.BussinessLayer.dll
